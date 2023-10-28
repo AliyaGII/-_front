@@ -1,0 +1,62 @@
+:root {
+    --primare-color : #2947A9;
+
+}
+
+body {
+    font-family: "Work Sans";
+}
+
+
+.container {
+    margin: auto;
+    border: 1px solid red;
+    max-width: 1486px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+    justify-content: space-between;
+}
+
+
+.header__logo {
+    display: flex;
+    align-self: center;
+    gap: 14px;
+}
+
+.header__logo-title{
+    align-self: center;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--primare-color);
+    font-size: 30px;
+}
+
+.nav__content {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link {
+    /*cursor: pointer;*/
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    
+    animation-duration: 1s;
+}
+
+.nav__link--contacts {
+    font-weight: 600;
+    color: #F9995D;
+}
+
+.nav__link:hover {
+    transition: all 1s;
+    text-decoration: underline;
+}
